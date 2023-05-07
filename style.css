@@ -1,66 +1,42 @@
-/* Reset default styles */
-body, h1, h2, p, ul, li {
+/* Reset default browser styles */
+body, h1, h2, h3, p {
   margin: 0;
   padding: 0;
 }
 
-/* Set background and text colors */
-body {
-  background-color: #f5f5f5;
-  color: #333333;
-  font-family: Arial, sans-serif;
-}
-
-/* Style the header */
+/* Apply background color and text styles to header */
 header {
-  background-color: #333333;
+  background-color: #3a86ff;
+  color: #fff;
   padding: 20px;
   text-align: center;
 }
 
-header h1 {
-  color: #ffffff;
-}
-
-/* Style the navigation menu */
-nav ul {
-  background-color: #666666;
-  list-style-type: none;
-  text-align: center;
+/* Style navigation */
+nav {
+  background-color: #f9f9f9;
   padding: 10px;
+  text-align: center;
 }
 
-nav ul li {
-  display: inline;
-}
-
-nav ul li a {
-  color: #ffffff;
+nav a {
   text-decoration: none;
-  padding: 10px 20px;
+  color: #000;
+  padding: 5px 10px;
+  margin: 0 5px;
 }
 
-nav ul li a:hover {
-  background-color: #999999;
-}
-
-/* Style the main content */
-main {
+/* Add styles to content section */
+section {
+  background-color: #fff;
   padding: 20px;
 }
 
-section {
-  margin-bottom: 20px;
-}
-
-section h2 {
-  margin-bottom: 10px;
-}
-
-/* Style the footer */
+/* Customize footer */
 footer {
-  background-color: #333333;
-  color: #ffffff;
+  background-color: #3a86ff;
+  color: #fff;
   padding: 10px;
   text-align: center;
 }
+
